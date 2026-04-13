@@ -39,7 +39,7 @@ const girls = ["Lizy", "Madison"];
 function formatMoney(n) {
   const val = Number(n);
   const abs = Math.abs(val).toFixed(2);
-  return val < 0 ? `-$${abs}` : `$${abs}`;
+return val < 0 ? `-$${abs}` : `$${abs}`;
 }
 
 function ClaimCard({ claim, onApprove, onReject, isParent }) {
